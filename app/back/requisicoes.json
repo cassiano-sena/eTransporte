@@ -1,0 +1,88 @@
+{
+    "name": "addUsuario",
+    "param": {
+      "nome": "1",
+      "email": "2",
+      "telefone": "3",
+      "senha": "4",
+      "is_admin": "0",
+      "is_driver": "0",
+      "is_active": "0",
+      "usuario_status": "A"
+    },
+    "name": "getUsuarioDetails",
+    "param": {
+      "usuario_id":"3"
+    },
+
+    "name": "updateUsuario",
+    "param": {
+      "usuario_id": "3",
+      "nome": "2",
+      "email": "3",
+      "telefone": "4",
+      "senha": "5",
+      "is_admin": "0",
+      "is_driver": "0",
+      "is_active": "0",
+      "usuario_status": "A",
+      "created_on":""
+    },
+    "name": "deleteUsuario",
+    "param": {
+      "usuario_id": "3"
+    },
+    "name": "addRota",
+    "param": {
+      "rota": "1",
+      "veiculo": "2",
+      "motorista": "3",
+      "datas": "4",
+      "horarios": "5",
+      "rota_status": "A"
+    },
+    "name": "getRotaDetails",
+    "param": {
+      "rota_id": "3"
+    },
+    "name": "updateRota",
+    "param": {
+      "rota_id": "3",
+      "rota": "0",
+      "veiculo": "0",
+      "motorista": "0",
+      "datas": "0",
+      "horarios": "0",
+      "rota_status": "A"
+    },
+    "name": "deleteRota",
+    "param": {
+      "rota_id": "3"
+    },
+    "name": "addMensagem",
+    "param": {
+      "usuario": "1",
+      "rota": "1",
+      "descricao": "a",
+      "mensagem_status": "A"
+    },
+    "name": "getMensagemDetails",
+    "param": {
+      "mensagem_id": "3"
+    },
+    "name": "updateMensagem",
+    "param": {
+      "mensagem_id": "3",
+      "usuario": "2",
+      "rota": "2",
+      "mensagem_data": "",
+      "hora": "",
+      "descricao": "B",
+      "mensagem_status": "I"
+    },
+    "name": "deleteMensagem",
+    "param": {
+      "mensagem_id": "3"
+    }
+}
+  

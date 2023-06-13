@@ -1,0 +1,26 @@
+.cabecalho{
+    height:15%;
+    width:screen;
+    top: auto;
+    background-color:grey;
+}
+
+.menu{
+    display:hidden;
+}
+
+.conteudo{
+    background-color:white;
+}
+
+.rodape{
+    height:15%;
+    width:screen;
+    bottom: auto;
+    background-color:grey;
+}
+
+.janela{
+    height: screen;
+    width: screen;
+}
