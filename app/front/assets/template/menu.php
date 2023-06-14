@@ -11,11 +11,11 @@
     <title>eTransporte-</title>
 </head>
 <body>
-    <div class="menu">
-        B
-        <img src="./assets/img/user-solid.svg" alt="usuario" width="24px" onClick="">
-        <img src="./assets/img/bell.png" alt="mensagens" width="32px" onClick="">
-        <img src="./assets/img/bus.png" alt="transporte" width="32px" onClick="">
+    <div id="menu" class="menu">
+        <img src="" alt="" width="50px"><br>
+        <img src="./assets/img/usuario.png" alt="usuario" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('usuario')"><br>
+        <img src="./assets/img/bell.png" alt="mensagens" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('mensagens')"><br>
+        <img src="./assets/img/bus.png" alt="transporte" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('transporte')"><br>
     </div>
 </body>
 </html>

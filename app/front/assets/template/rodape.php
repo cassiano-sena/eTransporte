@@ -12,10 +12,9 @@
 </head>
 <body>
     <div class="rodape">
-        C
         <img src="./assets/img/instagram.png" alt="transporte" width="32px" onClick="">
         <img src="./assets/img/whatsapp.png" alt="transporte" width="32px" onClick="">
-        <img src="./assets/img/github.png" alt="transporte" width="32px" onClick="">
+        <img src="./assets/img/github.png" alt="transporte" width="32px" onClick="redirect('github')">
 
     </div>
 </body>
