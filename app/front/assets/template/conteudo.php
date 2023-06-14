@@ -12,8 +12,10 @@
 </head>
 <body>
     <div class="conteudo">
-        Seja bem vindo, usuário.<br>
-        Como podemos ajudar?
+        <div class="home-title">
+            Seja bem vindo, usuário.<br>
+            Como podemos ajudar?
+        </div>
     </div>
 </body>
 </html>

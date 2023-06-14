@@ -10,26 +10,33 @@
     <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/comum.css">
     <script src="assets/js/bootstrap.min.js"></script>
     <title>eTransporte-</title>
+    <script language="javascript">
+        function redirect(loc){
+            if(loc=="usuario"){
+                window.location.href='./paginas/servicos/usuario/usuario.php';
+            }else if(loc=="mensagens"){
+                window.location.href='./paginas/servicos/mensagem/mensagens.php';
+            }else if(loc=="transporte"){
+                window.location.href='./paginas/servicos/transporte/transporte.php';
+            }else if(loc=="home"){
+                // window.location.href='./paginas/servicos/home.php';
+                window.location.href='index.php';
+            }else if(loc=="github"){
+                window.location.href='https://github.com/cassiano-sena/eTransporte/tree/main';
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="janela">
-        <div class="cabecalho">
         <?php include 'assets/template/cabecalho.php'; ?>
-        </div>
-        <!-- <div class="menu">
-        < ?php include 'assets/template/menu.php'; ?>
-        </div> -->
-        <div class="conteudo">
+        <!-- < ?php include 'assets/template/menu.php'; ?> -->
         <?php include 'assets/template/conteudo.php'; ?>
-        </div>
-        <div class="debug">
-        <?php include 'assets/template/debug.php'?>
-        </div>
-        <div class="rodape">
+        <?php include 'assets/template/debug.php'; ?>
         <?php include 'assets/template/rodape.php'; ?>
-        </div>
     </div>
 </body>
 </html>

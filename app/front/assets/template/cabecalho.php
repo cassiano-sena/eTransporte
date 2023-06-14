@@ -11,24 +11,20 @@
     <title>eTransporte-</title>
     <script language="javascript">
         function toggleMenu() {
-        var menu = document.getElementById("menu");
-        if (menu.style.width === "0px") {
-            menu.style.width = "200px";
-            // menu.style.display="block";
-        } else {
-            menu.style.width = "0px";
-            // menu.style.display="hidden";
-        }
+            var menu = document.getElementById("menu");
+            if (menu.style.width === "0px") {
+                menu.style.width = "100px";
+            } else {
+                menu.style.width = "0px";
+            }
         }
     </script>
 </head>
 <body>
     <div class="cabecalho">
-        A
-        <img src="./assets/img/more.png" alt="menu" width="32px" onClick="toggleMenu()">
-        <div id="menu" class="menu">
+            <img class="etransporte-header-icon" src="./assets/img/etransporte.png" alt="menu" width="32px" onClick="redirect('home')">
+            <img class="header-hamburguer-menu" src="./assets/img/more.png" alt="menu" width="32px" onClick="toggleMenu()">
         <?php include 'assets/template/menu.php'; ?>
-        </div>
     </div>
 </body>
 </html>
