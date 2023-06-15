@@ -34,8 +34,8 @@
     <!-- <div class="janela"> -->
         <?php include 'assets/template/cabecalho.php'; ?>
         <?php include 'assets/template/menu.php'; ?>
-        <?php include 'assets/template/conteudo.php'; ?>
         <?php include 'assets/template/debug.php'; ?>
+        <?php include 'assets/template/conteudo.php'; ?>
         <?php include 'assets/template/rodape.php'; ?>
     <!-- </div> -->
 </body>

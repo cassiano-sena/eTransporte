@@ -16,6 +16,7 @@
             Seja bem vindo, usuário.<br>
             Como podemos ajudar?
         </div>
+        <?php include 'assets/template/notificacoes.php';?>
     </div>
 </body>
 </html>
