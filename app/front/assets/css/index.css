@@ -12,9 +12,9 @@ body {
     margin: 0;
 }
 
-/* div {
-    border: solid 2px black;
-} */
+div {
+    /* border: solid 2px black; */
+}
 
 .cabecalho {
     display: flex;
@@ -65,7 +65,7 @@ body {
 }
 
 .janela {
-    border: solid 2px black;
+    /* border: solid 2px black; */
     min-height: 100%;
     margin-bottom: -50px;
 }
@@ -87,14 +87,56 @@ body {
     margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
-    /* left: 0; */
 }
 
 .spacer {
+    /* border: solid 2px orange; */
     flex: 1;
+}
+
+.not-spacer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-design-column-spacer {
+    border-radius: 30px;
+    border: solid 8px var(--quaternary-color);
+    /* height: 50%; */
+    width: 1px;
+    min-height: 20%;
+    max-height: 80%;
 }
 
 .spacer-column {
     /* flex: 1; */
     flex-direction: column;
+}
+
+.notificacoes-home {
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    /* border: solid 2px orange; */
+    height: 250px;
+    /* bottom: 0; */
+    /* flex: 1; */
+    background-color: var(--primary-color);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.notificacao-transporte {
+    height: 100%;
+    width: 30%;
+}
+
+.notificacao-mensagem {
+    display: flex;
+    height: 100%;
+    width: 60%;
 }

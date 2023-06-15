@@ -12,12 +12,12 @@
 </head>
 <body>
     <footer class="rodape">
-        Sobre
-        Contato
-        <img src="./assets/img/instagram.png" alt="transporte" width="32px" style="margin-left:5px; margin-right:2px;" onClick="">
-        <img src="./assets/img/whatsapp.png" alt="transporte" width="32px" style="margin-left:5px; margin-right:2px;" onClick="">
-        <img src="./assets/img/github.png" alt="transporte" width="32px" style="margin-left:5px; margin-right:2px;" onClick="redirect('github')">
-        <img src=""style="margin-right:15px;"  alt="">
+        <o style="margin-left:30px; margin-right:2px;">Sobre</o>
+        <o style="margin-left:30px; margin-right:20px;">Contato</o>
+        <img src="./assets/img/instagram.png" alt="transporte" width="32px" style="margin-left:10px; margin-right:2px;" onClick="">
+        <img src="./assets/img/whatsapp.png" alt="transporte" width="32px" style="margin-left:10px; margin-right:2px;" onClick="">
+        <img src="./assets/img/github.png" alt="transporte" width="32px" style="margin-left:8px; margin-right:2px;" onClick="redirect('github')">
+        <img src=""style="margin-right:30px;"  alt="">
     </footer>
 </body>
 </html>
