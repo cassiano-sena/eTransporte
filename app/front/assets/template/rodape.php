@@ -11,11 +11,11 @@
     <title>eTransporte-</title>
 </head>
 <body>
-    <div class="rodape">
+    <footer class="rodape">
         <img src="./assets/img/instagram.png" alt="transporte" width="32px" onClick="">
         <img src="./assets/img/whatsapp.png" alt="transporte" width="32px" onClick="">
         <img src="./assets/img/github.png" alt="transporte" width="32px" onClick="redirect('github')">
 
-    </div>
+    </footer>
 </body>
 </html>

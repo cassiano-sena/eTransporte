@@ -21,10 +21,11 @@
     </script>
 </head>
 <body>
-    <div class="cabecalho">
-            <img class="etransporte-header-icon" src="./assets/img/etransporte.png" alt="menu" width="32px" onClick="redirect('home')">
-            <img class="header-hamburguer-menu" src="./assets/img/more.png" alt="menu" width="32px" onClick="toggleMenu()">
-        <?php include 'assets/template/menu.php'; ?>
-    </div>
+    <header class="cabecalho">
+            <img class="etransporte-header-icon" src="./assets/img/etransporte.png" alt="menu" width="45px" onClick="redirect('home')">
+            <div class="spacer"></div>
+            <img class="header-hamburguer-menu" src="./assets/img/more.png" alt="menu" width="45px" onClick="toggleMenu()">
+        <!-- < ?php include 'assets/template/menu.php'; ?> -->
+    </header>
 </body>
 </html>
