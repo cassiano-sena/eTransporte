@@ -7,42 +7,36 @@
 
 html,
 body {
-    border: solid 2px pink;
+    /* border: solid 2px pink; */
     height: 100%;
     margin: 0;
 }
 
-div {
+/* div {
     border: solid 2px black;
-}
+} */
 
 .cabecalho {
     display: flex;
-    border: solid 2px yellow;
-    /* height: 60px; */
+    /* border: solid 2px yellow; */
     top: 0;
+    height: 55px;
     right: 0;
     left: 0;
+    right: 0;
     width: 100%;
-    /* position: relative; */
-    position: absolute;
+    position: sticky;
     background-color: var(--primary-color);
     z-index: 2;
 }
 
 .menu {
-    border: solid 2px green;
+    /* border: solid 2px green; */
     background-color: var(--primary-color);
-    /* width: 80px; */
     width: 0;
-    /* display: none; */
-    /* text-align: top; */
-    /* height: 80%; */
     bottom: 0px;
-    /* top: 100px; */
     top: 0px;
     position: fixed;
-    /* top: 0; */
     right: 0;
     overflow: hidden;
     transition: width 0.5s ease-in-out;
@@ -50,7 +44,7 @@ div {
 }
 
 .conteudo {
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
     text-align: center;
     line-height: 60px;
     background-color: var(--secondary-color);
@@ -58,7 +52,7 @@ div {
 
 .rodape {
     position: absolute;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     top: 100%;
     left: 0;
     bottom: 0;
@@ -81,11 +75,26 @@ div {
 }
 
 .header-hamburguer-menu {
-    /* position: absolute; */
-    right: 0;
+    padding: 2px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* right: 0; */
 }
 
 .etransporte-header-icon {
-    /* position: absolute; */
-    left: 0;
+    padding: 2px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* left: 0; */
+}
+
+.spacer {
+    flex: 1;
+}
+
+.spacer-column {
+    /* flex: 1; */
+    flex-direction: column;
 }

@@ -11,11 +11,13 @@
     <title>eTransporte-</title>
 </head>
 <body>
-    <div class="rodape">
-        <img src="./assets/img/instagram.png" alt="transporte" width="32px" onClick="">
-        <img src="./assets/img/whatsapp.png" alt="transporte" width="32px" onClick="">
-        <img src="./assets/img/github.png" alt="transporte" width="32px" onClick="redirect('github')">
-
-    </div>
+    <footer class="rodape">
+        Sobre
+        Contato
+        <img src="./assets/img/instagram.png" alt="transporte" width="32px" style="margin-left:5px; margin-right:2px;" onClick="">
+        <img src="./assets/img/whatsapp.png" alt="transporte" width="32px" style="margin-left:5px; margin-right:2px;" onClick="">
+        <img src="./assets/img/github.png" alt="transporte" width="32px" style="margin-left:5px; margin-right:2px;" onClick="redirect('github')">
+        <img src=""style="margin-right:15px;"  alt="">
+    </footer>
 </body>
 </html>
