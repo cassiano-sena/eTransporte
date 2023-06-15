@@ -12,10 +12,12 @@
 </head>
 <body>
     <div id="menu" class="menu">
-        <img src="" alt="" width="50px"><br>
+        <img src="" alt="" height="60px"><br>
         <img src="./assets/img/usuario.png" alt="usuario" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('usuario')"><br>
         <img src="./assets/img/bell.png" alt="mensagens" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('mensagens')"><br>
         <img src="./assets/img/bus.png" alt="transporte" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('transporte')"><br>
+        <div class="spacer-column"></div>
+        <img src="./assets/img/logout.png" alt="logout" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('logout')"><br>
     </div>
 </body>
 </html>
