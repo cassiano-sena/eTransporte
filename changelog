@@ -1,6 +1,7 @@
-15/06/2023 - 17:11 - Cassiano - v0.0.3
+16/06/2023 - 16:30 - Cassiano - v0.0.4
 Front:
-- More fidelity to the prototype;
-- Notifications added;
+- Better organization of files;
+- Now uses path variables;
+- Began fabrication process of other pages of the project (specifically: mensagens.php);
 Back:
 -No changes.
