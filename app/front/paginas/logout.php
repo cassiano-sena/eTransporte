@@ -20,10 +20,7 @@ require_once '../security/path.php';
     <!-- < ?php var_dump(TEMPLATE);?> -->
     <?php include(TEMPLATE . 'cabecalho.php'); ?>
     <?php include(TEMPLATE . 'menu.php'); ?>
-    <?php include(TEMPLATE . 'transporte.php'); ?>
-    <?php include(TEMPLATE . 'transporte-ativo.php'); ?>
-    <?php include(TEMPLATE . 'transporte-inativo.php'); ?>
-    <?php include(TEMPLATE . 'transporte-adicionar.php'); ?>
+    <?php include(TEMPLATE . 'logout.php'); ?>
     <?php include(TEMPLATE . 'rodape.php'); ?>
 </body>
 </html>

@@ -1,6 +1,9 @@
 <?php
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
 require_once '../security/path.php';
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,17 +16,13 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
     <title>eTransporte-</title>
-    <script language="javascript">
-    </script>
 </head>
 <body>
-    <!-- < ?php var_dump(TEMPLATE);?> -->
-    <?php include(TEMPLATE . 'cabecalho.php'); ?>
-    <?php include(TEMPLATE . 'menu.php'); ?>
-    <?php include(TEMPLATE . 'transporte.php'); ?>
-    <?php include(TEMPLATE . 'transporte-ativo.php'); ?>
-    <?php include(TEMPLATE . 'transporte-inativo.php'); ?>
-    <?php include(TEMPLATE . 'transporte-adicionar.php'); ?>
-    <?php include(TEMPLATE . 'rodape.php'); ?>
+    <div class="conteudo">
+        <div class="home-title">
+            Mensagem-Histórico<br>
+        </div>
+        <?php include TEMPLATE.'notificacoes.php';?>
+    </div>
 </body>
 </html>

@@ -26,7 +26,6 @@ require_once 'security/path.php';
         <?php include TEMPLATE . 'debug.php'; ?>
         <?php include TEMPLATE . 'conteudo.php'; ?>
         <?php include TEMPLATE . 'rodape.php'; ?>
-        a
     <!-- </div> -->
 </body>
 </html>

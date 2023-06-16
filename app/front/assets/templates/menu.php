@@ -18,14 +18,17 @@ require_once '../security/path.php';
     <script language="javascript">
         function redirect(loc){
             if(loc=="usuario"){
-                window.location.href='./paginas/usuario.php';
+                window.location.href='<?php echo PAGES ;?>usuario.php';
             }else if(loc=="mensagens"){
-                window.location.href='./paginas/mensagens.php';
+                window.location.href='<?php echo PAGES ;?>mensagem.php';
             }else if(loc=="transporte"){
-                window.location.href='./paginas/transporte.php';
+                window.location.href='<?php echo PAGES ;?>transporte.php';
             }else if(loc=="home"){
-                // window.location.href='./paginas/home.php';
-                // window.location.href='../../index.php';
+                window.location.href='<?php echo PAGES ;?>home.php';
+            }else if(loc=="login"){
+                window.location.href='<?php echo PAGES ;?>login.php';
+            }else if(loc=="logout"){
+                window.location.href='<?php echo PAGES ;?>logout.php';
             }else if(loc=="github"){
                 window.location.href='https://github.com/cassiano-sena/eTransporte/tree/main';
             }
@@ -39,6 +42,7 @@ require_once '../security/path.php';
         <img src="<?php echo IMAGES ;?>bell.png" alt="mensagens" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('mensagens')"><br>
         <img src="<?php echo IMAGES ;?>bus.png" alt="transporte" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('transporte')"><br>
         <div class="spacer-column"></div>
+        <img src="<?php echo IMAGES ;?>login.png" alt="login" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('login')"><br>
         <img src="<?php echo IMAGES ;?>logout.png" alt="logout" width="50px" style="padding:10px; padding-left:4px;" onClick="redirect('logout')"><br>
     </div>
 </body>
