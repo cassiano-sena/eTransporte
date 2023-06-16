@@ -22,8 +22,7 @@ require_once '../security/path.php';
     <?php include TEMPLATE . 'cabecalho.php'; ?>
     <?php include TEMPLATE . 'menu.php'; ?>
     <?php include TEMPLATE . 'debug.php'; ?>
-    <?php include TEMPLATE . 'conteudo.php'; ?>
+    <?php include TEMPLATE . 'home.php'; ?>
     <?php include TEMPLATE . 'rodape.php'; ?>
-    a
 </body>
 </html>
