@@ -20,9 +20,14 @@ require_once '../security/path.php';
 <body>
     <div class="conteudo">
         <div class="home-title">
-            Transporte-Inativo<br>
+            <!-- Transporte-Inativo<br> -->
         </div>
-        <?php include TEMPLATE.'notificacoes.php';?>
+        <span class="transportes-disponiveis">
+            <div id="nao-participado" class="nao-participado">
+                <div class="title-left">Transportes Disponíveis</div>
+                <div class="enclosed-box"></div>
+            </div>
+        </span>
     </div>
 </body>
 </html>
