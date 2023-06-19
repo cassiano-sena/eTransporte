@@ -35,6 +35,6 @@ require_once '../security/path.php';
                 <img src="<?php echo IMAGES ;?>e-mail.png" alt="" width="50px" style="padding:10px; padding-left:4px;">
             </div>
         </div>
-</span>
+    </span>
 </body>
 </html>

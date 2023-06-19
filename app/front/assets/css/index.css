@@ -3,7 +3,7 @@
     --secondary-color: #ffffff;
     --tertiary-color: #57B2F3;
     --quaternary-color: #A2A6A8;
-    --quinary-color: #e6dede;
+    --quinary-color: #f7f7f7;
 }
 
 html,
@@ -15,6 +15,28 @@ body {
 
 div {
     /* border: solid 2px black; */
+}
+
+.title-left {
+    margin-left: 60px;
+    text-align: left;
+}
+
+.title-right {
+    margin-right: 60px;
+    text-align: right;
+}
+
+.enclosed-box {
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    height: 100px;
+    background-color: var(--quinary-color);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 .cabecalho {
@@ -116,6 +138,8 @@ div {
     flex-direction: column;
 }
 
+.usuario-dados,
+.transporte-adicionar,
 .notificacoes-home {
     border-radius: 30px;
     position: relative;
@@ -140,4 +164,88 @@ div {
     display: flex;
     height: 100%;
     width: 60%;
+}
+
+.transporte-adicionar,
+.adicionar {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.usuario-dados {
+    height: 600px;
+}
+
+.foto {
+    border: solid 2px black;
+    height: 100%;
+    width: 35%;
+}
+
+.informacoes {
+    /* display: grid; */
+    font-size: 10px;
+    border: solid 2px black;
+    height: 100%;
+    width: 65%;
+}
+
+#input-nome,
+#input-sobrenome,
+#input-email,
+#input-senha,
+#input-telefone,
+#input-cidade,
+#input-endereco,
+#input-estudante,
+#input-universidade,
+#input-matricula,
+#input-motorista,
+#input-cnh,
+#input-transporte,
+#input-administrador {
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.nome,
+.sobrenome,
+.email,
+.senha,
+.telefone,
+.cidade,
+.endereco,
+.estudante,
+.universidade,
+.matricula,
+.motorista,
+.cnh,
+.transporte,
+.administrador {
+    border: solid 2px red;
+    height: 40px;
+    width: 100%;
+    line-height: 4px;
+    /* grid-row: 50% 50%; */
+}
+
+.divisor-informacoes-1 {
+    border: solid 2px black;
+    width: 40%;
+    /* height: 100%; */
+}
+
+.divisor-informacoes-2 {
+    border: solid 2px black;
+    width: 50%;
+    /* height: 100%; */
+}
+
+.editar-remover {
+    border: solid 2px black;
+    width: 10%;
+    /* height: 100%; */
 }

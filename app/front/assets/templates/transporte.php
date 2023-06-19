@@ -20,7 +20,7 @@ require_once '../security/path.php';
 <body>
     <div class="conteudo">
         <div class="home-title">
-            Transporte<br>
+            <!-- Transporte<br> -->
         </div>
         <?php include TEMPLATE.'notificacoes.php';?>
     </div>
