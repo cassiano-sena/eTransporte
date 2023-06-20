@@ -1,5 +1,7 @@
-19/06/2023 - 17:13 - Cassiano - v0.0.6
+20/06/2023 - 17:06 - Cassiano - v0.0.8
 Front:
 - More fidelity to the prototype;
+- More login pages added;
+- Organization of functions and files;
 Back:
 -No changes.

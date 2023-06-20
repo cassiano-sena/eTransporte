@@ -15,10 +15,10 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>index.css">
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
-    <title>eTransporte-</title>
+    <title>eTransporte</title>
 </head>
 <body>
-    Mensagem-Enviar
+    <!-- Mensagem-Enviar -->
     <span class="notificacoes-home">
         <div class="notificacao-transporte">
             <div class="not-mesg-transporte"  style="height:100%; width:100%;">Transporte<br>

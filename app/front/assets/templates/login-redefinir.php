@@ -26,18 +26,20 @@ require_once '../security/path.php';
             <div class="login-main">
             <img class="etransporte-header-icon" src="<?php echo IMAGES ;?>etransporte.png" alt="menu" width="100px" style="position:center;margin:0;margin-top:100px; margin-bottom:50px;">
                 <div class=login-1>
-                    <input class="input-login" type="text" placeholder="Usuário">
+                    <input class="input-login"type="text" placeholder="Email"><br>
+                    <div class="login-center" style="line-height:20px; text-align: center;">Enviaremos um código de recuperação para esse email.</div>
                 </div>
                 <div class="login-2">
-                    <input class="input-login" type="password" placeholder="Senha">
-                    <div class="login-center">Esqueceu a senha? <a href="<?php echo PAGES; ?>recuperar_senha.php" class="redefinir">Redefinir</a></div>
+                    <input class="input-login" type="codigo" placeholder="Código">
+                    <!-- <div class="login-center">Esqueceu a senha? <a class="redefinir">Redefinir</a></div> -->
                 </div>
                 <div class="buttons">
-                    <div class="register">
-                        <button class="input-submit" type="button" value="Register" style="" onclick="action(this.value)">Nova Conta</button>
-                    </div>
+                    <!-- <div class="register">
+                        <button class="input-submit" type="button" value="Register" style="">Nova Conta</button>
+                    </div> -->
                     <div class="login">
-                        <button class="input-submit" type="button" value="Login" style="" onclick="action(this.value)">Log in</button>
+                        <button class="input-submit" type="button" value="Send" style="" onclick="action(this.value)">Enviar Código</button>
+                        <button class="input-submit" type="button" value="Redefine" style="" onclick="action(this.value)">Redefinir</button>
                     </div>
                 </div>
             </div>
