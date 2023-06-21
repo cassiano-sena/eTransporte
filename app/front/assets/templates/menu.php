@@ -14,26 +14,7 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>index.css">
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
-    <title>eTransporte-</title>
-    <script language="javascript">
-        function redirect(loc){
-            if(loc=="usuario"){
-                window.location.href='<?php echo PAGES ;?>usuario.php';
-            }else if(loc=="mensagens"){
-                window.location.href='<?php echo PAGES ;?>mensagem.php';
-            }else if(loc=="transporte"){
-                window.location.href='<?php echo PAGES ;?>transporte.php';
-            }else if(loc=="home"){
-                window.location.href='<?php echo PAGES ;?>home.php';
-            }else if(loc=="login"){
-                window.location.href='<?php echo PAGES ;?>login.php';
-            }else if(loc=="logout"){
-                window.location.href='<?php echo PAGES ;?>logout.php';
-            }else if(loc=="github"){
-                window.location.href='https://github.com/cassiano-sena/eTransporte/tree/main';
-            }
-        }
-    </script>
+    <title>eTransporte</title>
 </head>
 <body>
     <div id="menu" class="menu">

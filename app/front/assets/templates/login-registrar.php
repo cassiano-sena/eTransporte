@@ -23,19 +23,24 @@ require_once '../security/path.php';
             <div class="login-main">
             <img class="etransporte-header-icon" src="<?php echo IMAGES ;?>etransporte.png" alt="menu" width="100px" style="position:center;margin:0;margin-top:100px; margin-bottom:50px;">
                 <div class=login-1>
-                    <input class="input-login" type="text" placeholder="Usuário">
+                    <input class="input-login" type="text" placeholder="Nome">
+                    <input class="input-login" type="text" placeholder="Sobrenome">
+                    <input class="input-login" type="text" placeholder="Email">
+                    <!-- <input class="input-login" type="text" placeholder="Telefone"> -->
+                    <!-- <input class="input-login" type="text" placeholder="Cidade"> -->
+                    <!-- <input class="input-login" type="text" placeholder="Endereço"> -->
                 </div>
                 <div class="login-2">
                     <input class="input-login" type="password" placeholder="Senha">
-                    <div class="login-center">Esqueceu a senha? <a href="<?php echo PAGES; ?>recuperar_senha.php" class="redefinir">Redefinir</a></div>
+                    <!-- <div class="login-center">Esqueceu a senha? <a class="redefinir">Redefinir</a></div> -->
                 </div>
-                <div class="buttons">
-                    <div class="register">
-                        <button class="btn btn-primary"  type="button" value="Register" style="" onclick="action(this.value)">Nova Conta</button>
+                <div class="buttons" style="justify-content:center;">
+                    <div>
+                        <button type="button" class="btn btn-primary" value="Create" style="" onclick="action(this.value)">Criar Código</button>
                     </div>
-                    <div class="login">
-                        <button class="btn btn-primary" type="button" value="Login" style="margin-left:45px;" onclick="action(this.value)">Log in</button>
-                    </div>
+                    <!-- <div class="login">
+                        <button class="input-submit" type="button" value="Login" style="">Log in</button>
+                    </div> -->
                 </div>
             </div>
         </div>

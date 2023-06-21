@@ -17,10 +17,13 @@ require_once '../security/path.php';
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
     <title>eTransporte-</title>
     <script language="javascript">
-        function colorChange(color){
-            if(color=='fifth'){
-                transporte-adicionar.background-color=quinary-color;
-            }
+        function adicionar(){
+            var div = document.getElementById("adicionar-transporte");
+            // Add a click event listener to the div
+            div.addEventListener("click", function() {
+            // Redirect the user to a different page
+            window.location.href = "<?php echo PAGES;?>/cadastro-transporte.php"; // Replace with your desired URL
+            });
         }
     </script>
 </head>
@@ -29,11 +32,11 @@ require_once '../security/path.php';
         <!-- <div class="home-title">
             Transporte-Adicionar<br>
         </div> -->
-        <span class="transporte-adicionar" onhover="colorChange('fifth');">
+        <div id="adicionar-transporte" class="transporte-adicionar" onclick="adicionar()" onhover="colorChange('fifth');">
             <div class="adicionar">
                 +<br>Adicionar novo transporte
             </div>
-        </span>
+        </div>
     </div>
 </body>
 </html>

@@ -17,7 +17,10 @@ require_once '../security/path.php';
     </script>
 </head>
 <body>
-    Trocar senha
+    <!-- < ?php var_dump(TEMPLATE);?> -->
+    <?php include(TEMPLATE . 'cabecalho.php'); ?>
+    <?php include(TEMPLATE . 'menu.php'); ?>
+    <?php include(TEMPLATE . 'cadastro-transporte.php'); ?>
     <?php include(TEMPLATE . 'rodape.php'); ?>
 </body>
 </html>

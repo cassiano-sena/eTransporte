@@ -14,7 +14,7 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>index.css">
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
-    <title>eTransporte-</title>
+    <title>eTransporte</title>
 </head>
 <body>
     <div class="debug">

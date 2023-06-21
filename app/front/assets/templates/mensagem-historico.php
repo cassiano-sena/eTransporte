@@ -15,12 +15,13 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>index.css">
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
-    <title>eTransporte-</title>
+    <title>eTransporte</title>
 </head>
 <body>
     <div class="conteudo">
-        <div class="home-title">
-            Mensagem-Histórico<br>
+        <br>
+        <div class="title-left">
+            Histórico
         </div>
         <span class="notificacoes-home">
         <div class="notificacao-transporte">
@@ -39,7 +40,6 @@ require_once '../security/path.php';
                 <img src="<?php echo IMAGES ;?>e-mail.png" alt="" width="50px" style="padding:10px; padding-left:4px;">
             </div>
         </div>
-</span><?php include TEMPLATE.'notificacoes.php';?>
     </div>
 </body>
 </html>

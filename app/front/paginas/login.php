@@ -12,15 +12,12 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>index.css">
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
-    <title>eTransporte-</title>
-    <script language="javascript">
-    </script>
+    <title>eTransporte</title>
 </head>
 <body>
-    <!-- < ?php var_dump(TEMPLATE);?> -->
-    <?php include(TEMPLATE . 'cabecalho.php'); ?>
-    <?php include(TEMPLATE . 'menu.php'); ?>
     <?php include(TEMPLATE . 'login.php'); ?>
+    <!-- < ?php include(TEMPLATE . 'login-registrar.php'); ?> -->
+    <!-- < ?php include(TEMPLATE . 'login-redefinir.php'); ?> -->
     <?php include(TEMPLATE . 'rodape.php'); ?>
 </body>
 </html>
