@@ -30,105 +30,103 @@ require_once '../security/path.php';
                 </div>
                 <div class="informacoes">
                     <div id="nome" class="nome">
-                        Nome
-                        
+                        <div class="divisor-informacoes-1">Nome</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-nome" placeholder="Nome">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="sobrenome" class="sobrenome">
-                        Sobrenome
-                        
+                        <div class="divisor-informacoes-1">Sobrenome</div> 
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-sobrenome" placeholder="Sobrenome">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="email" class="email">
-                        Email
-                        
+                        <div class="divisor-informacoes-1">Email</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-email" placeholder="Email">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="senha" class="senha">
-                        Senha
-                        
+                        <div class="divisor-informacoes-1">Senha</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-senha" placeholder="Senha">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="telefone" class="telefone">
-                        Telefone
-                        
+                        <div class="divisor-informacoes-1">Telefone</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-telefone" placeholder="Telefone">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="cidade" class="cidade">
-                        Cidade
-                        
+                        <div class="divisor-informacoes-1">Cidade</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-cidade" placeholder="Cidade">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="endereco" class="endereco">
-                        Endereço
-                        
+                        <div class="divisor-informacoes-1">Endereço</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-endereco" placeholder="Endereço">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="estudante" class="estudante">
-                        Estudante
-                        
+                        <div class="divisor-informacoes-1">Estudante</div>
+                        <div class="divisor-informacoes-2">
                             <select name="" id=""></select>
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="universidade" class="universidade">
-                        Universidade
-                        
+                        <div class="divisor-informacoes-1">Universidade</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-universidade" placeholder="Universidade">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="matricula" class="matricula">
-                        Matrícula
-                        
+                        <div class="divisor-informacoes-1">Matrícula</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-matricula" placeholder="Matrícula">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="motorista" class="motorista">
-                        Motorista
-                        
+                        <div class="divisor-informacoes-1">Motorista</div>
+                        <div class="divisor-informacoes-2">
                             <select name="" id=""></select>
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="cnh" class="cnh">
-                        CNH
-                        
+                        <div class="divisor-informacoes-1">CNH</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-cnh" placeholder="CNH">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="transporte" class="transporte">
-                        Transporte
-                        
+                        <div class="divisor-informacoes-1">Transporte</div>
+                        <div class="divisor-informacoes-2">
                             <input type="text" id="input-transporte" placeholder="Transporte">
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
                     <div id="administrador" class="administrador">
-                        Administrador
-                        
+                        <div class="divisor-informacoes-1">Administrador</div>
+                        <div class="divisor-informacoes-2">
                             <select name="" id=""></select>
-                        
-                        
+                        </div>
+                        <div class="divisor-informacoes editar-remover"></div>
                     </div>
-                    <button type="button" class="btn btn-primary btn-sm">Editar</button>
-                    <button type="button" class="btn btn-secondary btn-sm">Salvar</button>
                 </div>
             </span>
         </div>

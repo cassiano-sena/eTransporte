@@ -15,27 +15,29 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>index.css">
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
-    <title>eTransporte-</title>
+    <title>eTransporte</title>
 </head>
 <body>
-    Mensagem-Enviar
-    <span class="notificacoes-home">
-        <div class="notificacao-transporte">
-            <div class="not-mesg-transporte"  style="height:100%; width:100%;">Transporte<br>
-                <img src="<?php echo IMAGES ;?>bus.png" alt="transporte" width="50px" style="padding:10px; padding-left:4px;">
+<div class="conteudo">
+    <div class="mensagem-enviar-box">
+        <div class="mensagem-enviar-transporte">
+            <div class="msg-enviar-transporte"  style="height:100%; width:100%;">Usuário<br>
+                <img src="<?php echo IMAGES ;?>usuario.png" alt="usuário" width="50px" style="padding:10px; padding-left:4px;">
             </div>
         </div>
-        <div class="not-spacer">
-            <div class="not-design-column-spacer"></div>
-        </div>
-        <div class="notificacao-mensagem">
-            <div class="not-mesg-user" style="height:100%; width:30%;">Usuário<br>
-                <img src="<?php echo IMAGES ;?>usuario.png" alt="usuario" width="50px" style="padding:10px; padding-left:4px;">
+        <div class="mensagem-enviar-content">
+            <div style="text-align:left;line-height:1.5;height:50px;">
+                <select name="" id="">
+                    <option value="Transporte">Transporte</option>
+                </select>
+                <!-- <div class="spacer"></div> -->
+                <img src="<?php echo IMAGES ;?>e-mail.png" alt="" width="40px" style="">
             </div>
-            <div class="not-mesg-content" style="height:100%; width:70%;">Mensagem<br>
-                <img src="<?php echo IMAGES ;?>e-mail.png" alt="" width="50px" style="padding:10px; padding-left:4px;">
+            <div style="">
+                <textarea rows="4" cols="50" class="mensagem-enviar-field"></textarea>
             </div>
         </div>
-</span>
+    </div>
+</div>
 </body>
 </html>

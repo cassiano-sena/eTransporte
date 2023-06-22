@@ -6,8 +6,8 @@ class DbConnect{
     private $server = 'localhost';
     private $dbname = 'projeto_pw';
     private $user = 'root';
-    // private $password = 'root';
-    private $password = '';
+    private $password = 'root';
+    // private $password = '';
     public function connect(){
         try{
             $conn=new PDO('mysql:host='.$this->server.';dbname='.$this->dbname,$this->user,$this->password);

@@ -12,7 +12,7 @@ require_once '../security/path.php';
     <link rel="stylesheet" href="<?php echo CSS ;?>index.css">
     <link rel="stylesheet" href="<?php echo CSS ;?>comum.css">
     <script src="<?php echo JS ;?>bootstrap.min.js"></script>
-    <title>eTransporte-</title>
+    <title>eTransporte</title>
     <script language="javascript">
     </script>
 </head>
@@ -20,7 +20,7 @@ require_once '../security/path.php';
     <!-- < ?php var_dump(TEMPLATE);?> -->
     <?php include(TEMPLATE . 'cabecalho.php'); ?>
     <?php include(TEMPLATE . 'menu.php'); ?>
-    <?php include(TEMPLATE . 'mensagem.php'); ?>
+    <!-- < ?php include(TEMPLATE . 'mensagem.php'); ?> -->
     <?php include(TEMPLATE . 'mensagem-enviar.php'); ?>
     <?php include(TEMPLATE . 'mensagem-historico.php'); ?>
     <?php include(TEMPLATE . 'rodape.php'); ?>
