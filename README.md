@@ -12,6 +12,7 @@ The project is now in Beta Phase:
 Front:
 - More fidelity to the prototype;
 - Updated css (in progress);
+
 Back:
 - Introducing CURL for API-cosuming work;
 - JWT is now being used;
