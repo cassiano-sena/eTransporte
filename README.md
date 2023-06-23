@@ -7,7 +7,7 @@
 
 
 
-23/06/2023 - 16:53 - Cassiano - v1.0
+*23/06/2023 - 16:53 - Cassiano - v1.0
 
 The project is now in Beta Phase:
 >Now the project is being updated on both the backend and the frontend (instead of just updating design).
@@ -19,4 +19,4 @@ Front:
 Back:
 - Introducing CURL for API-cosuming work;
 - JWT is now being used;
-- The 'Login' files are being tested;
+- The 'Login' files are being tested;*
