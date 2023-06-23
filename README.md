@@ -11,7 +11,7 @@ The project is now in Beta Phase:
 
 Front:
 - More fidelity to the prototype;
-- Updated css (in progress);
+- Updated CSS (in progress);
 
 Back:
 - Introducing CURL for API-cosuming work;
