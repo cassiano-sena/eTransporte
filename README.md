@@ -1,4 +1,4 @@
-# eTransporte v1.0 Beta
+# eTransporte v1.2 Beta
 
 >CS - Web Programming Project by Cassiano de Sena and Eduardo Miguel.
 >
