@@ -12,4 +12,6 @@
 >Check the database for the available logins (e.g email:cassiano@email, password:Cassiano)
 >
 >You will have 15 minutes of access after logging in, as both the JWT and SESSION will expire.
+
+
 30/06/2023 - 23:27 - Cassiano - v2.0
