@@ -7,6 +7,6 @@
 >
 >Upload the 'app/back/db/database-drop.sql' database to phpMyAdmin.
 >
->Make sure to check 'app/back/dbconnect.php' and 'app/front/security/path.php' to customize your application directory.
+>Make sure to check 'app/back/dbconnect.php' and 'app/front/security/path.php' to customize your application directory and connection variables.
 
 30/06/2023 - 23:27 - Cassiano - v2.0
