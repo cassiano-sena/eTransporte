@@ -14,7 +14,7 @@
 2  -  Make sure to check 'app/back/dbconnect.php' and 'app/front/security/path.php' to customize your application directory and connection variables.
 
 
-3  -  Check the database for the available logins (e.g email:cassiano@email, password:Cassiano)
+3  -  Check the database for the available logins (e.g email:cassiano@email.com, password:Cassiano) or create a new one.
 
 To start, go to the 'index.php' file or 'login.php', both present in 'app/front/', 'index.php' being in '/paginas/'.
 
