@@ -1,7 +1,6 @@
 # eTransporte v2.0 Release
 
 >CS - Web Programming Project by Cassiano de Sena and Eduardo Miguel.
-(To get the latest version, make sure to install the '.zip' file!)
 >
 >Use XAMPP and phpMyAdmin for better results.
 >
