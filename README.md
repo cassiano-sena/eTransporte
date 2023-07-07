@@ -1,22 +1,21 @@
-# eTransporte v2.0 Release
+# eTransporte v1.2 Beta
 
 >CS - Web Programming Project by Cassiano de Sena and Eduardo Miguel.
-(To get the latest version, make sure to install the '.zip' file!)
 >
->Use XAMPP and phpMyAdmin for better results.
+>(To get the latest version, make sure to install the '.zip' file!)
 >
-30/06/2023 - 23:27 - Cassiano - v2.0
+>The project is now in Beta Phase:
+>Now the project is being updated on both the backend and the frontend (instead of just updating design).
 
 
-1  -  Upload the 'app/back/db/database-drop.sql' database to phpMyAdmin.
+26/06/2023 - 17:11 - Cassiano - v1.2
 
 
-2  -  Make sure to check 'app/back/dbconnect.php' and 'app/front/security/path.php' to customize your application directory and connection variables.
+Front:
+- More fidelity to the prototype;
+- Updated CSS (in progress);
 
-
-3  -  Check the database for the available logins (e.g email:cassiano@email.com, password:Cassiano) or create a new one.
-
-To start, go to the 'index.php' file or 'login.php', both present in 'app/front/', 'index.php' being in '/paginas/'.
-
->You will have 15 minutes of access after logging in, as both the JWT and SESSION will expire.
-
+Back:
+- Introducing CURL for API-cosuming work;
+- JWT is now being used;
+- The 'Login' files are being tested;

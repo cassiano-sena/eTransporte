@@ -1,0 +1,402 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "transporte_backend",
+    "dateExported": "2023-06-13T00:22:39.328Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "65be2a8f-8d98-41d8-9cc7-400d1f8bd3c0",
+            "name": "Without Token",
+            "containerId": "",
+            "created": "2023-06-13T00:07:42.024Z",
+            "sortNum": 5000
+        },
+        {
+            "_id": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "Token Required",
+            "containerId": "",
+            "created": "2023-06-13T00:06:49.208Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "deef2df5-b312-44b8-b11b-c90e7107ea15",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "UsuariosGetByIdPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-12T21:45:18.353Z",
+            "modified": "2023-06-13T00:21:01.589Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"getUsuarioById\",\n  \"param\": {\n    \"usuario_id\":1\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "363ba9db-a67d-4c32-bb6c-8ad5c55147be",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "65be2a8f-8d98-41d8-9cc7-400d1f8bd3c0",
+            "name": "GenerateTokenPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-13T00:05:02.925Z",
+            "modified": "2023-06-13T00:07:43.395Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"generateToken\",\r\n  \"param\": {\r\n    \"email\": \"cassiano@email.com\",\r\n    \"senha\": \"cassiano\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b2d6c939-5fc9-4fb6-aee5-2d630eed1b3a",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "AddUsuarioPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-06-13T00:08:20.682Z",
+            "modified": "2023-06-13T00:20:26.200Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"addUsuario\",\n  \"param\": {\n    \"nome\": \"1\",\n    \"email\": \"2\",\n    \"telefone\": \"3\",\n    \"senha\": \"4\",\n    \"is_admin\": \"0\",\n    \"is_driver\": \"0\",\n    \"is_active\": \"0\",\n    \"usuario_status\": \"A\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "72d21ab5-6853-4165-82f4-600061416636",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "GetUsuarioDetailsPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-06-13T00:10:31.433Z",
+            "modified": "2023-06-13T00:20:11.365Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"getUsuarioDetails\",\n  \"param\": {\n    \"usuario_id\":1\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3c05fbf9-10d9-499c-9bfc-e7ba428aba67",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "UpdateUsuarioPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-06-13T00:11:01.932Z",
+            "modified": "2023-06-13T00:19:58.619Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"updateUsuario\",\r\n  \"param\": {\r\n    \"usuario_id\": \"1\",\r\n    \"nome\": \"2\",\r\n    \"email\": \"3\",\r\n    \"telefone\": \"4\",\r\n    \"senha\": \"5\",\r\n    \"is_admin\": \"0\",\r\n    \"is_driver\": \"0\",\r\n    \"is_active\": \"0\",\r\n    \"usuario_status\": \"A\",\r\n    \"created_on\":\"\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b276221b-b6bc-4184-a590-9c28606fa1c8",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "DeleteUsuarioPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-06-13T00:12:43.980Z",
+            "modified": "2023-06-13T00:19:41.394Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"deleteUsuario\",\r\n  \"param\": {\r\n    \"usuario_id\": \"\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e27cb388-8965-4868-bd52-4485db914f8c",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "AddRotaPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-06-13T00:13:20.318Z",
+            "modified": "2023-06-13T00:19:24.569Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"addRota\",\r\n  \"param\": {\r\n    \"rota\": \"1\",\r\n    \"veiculo\": \"2\",\r\n    \"motorista\": \"3\",\r\n    \"datas\": \"4\",\r\n    \"horarios\": \"5\",\r\n    \"rota_status\": \"A\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "62ce5e1c-eaec-42e5-975e-6f32a3895c83",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "GetRotaDetails",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-06-13T00:13:44.348Z",
+            "modified": "2023-06-13T00:19:10.503Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"getRotaDetails\",\r\n  \"param\": {\r\n    \"rota_id\": \"\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "068096c0-a31b-4730-a0ff-7887a4c58e40",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "UpdateRotaPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-06-13T00:14:13.324Z",
+            "modified": "2023-06-13T00:18:53.099Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"updateRota\",\r\n  \"param\": {\r\n    \"rota_id\": \"1\",\r\n    \"rota\": \"0\",\r\n    \"veiculo\": \"0\",\r\n    \"motorista\": \"0\",\r\n    \"datas\": \"0\",\r\n    \"horarios\": \"0\",\r\n    \"rota_status\": \"A\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8119211c-046f-43bd-8122-ced6e7817b57",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "DeleteRotaPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-06-13T00:14:52.825Z",
+            "modified": "2023-06-13T00:18:39.058Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"deleteRota\",\r\n  \"param\": {\r\n    \"rota_id\": \"3\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "16cf7a1c-b595-4e71-bd49-02d9881825d3",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "AddMensagemPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2023-06-13T00:15:11.003Z",
+            "modified": "2023-06-13T00:18:22.989Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"addMensagem\",\r\n  \"param\": {\r\n    \"usuario\": \"1\",\r\n    \"rota\": \"1\",\r\n    \"descricao\": \"a\",\r\n    \"mensagem_status\": \"A\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9eeb1fcb-c6e5-4c41-81b2-689e42a29b49",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "GetMensagemDetailsPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2023-06-13T00:15:43.017Z",
+            "modified": "2023-06-13T00:18:06.672Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"getMensagemDetails\",\n  \"param\": {\n    \"mensagem_id\": \"3\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2df0f2c7-583e-47a5-8600-d15fba6e02a1",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "UpdateMensagemPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2023-06-13T00:16:10.584Z",
+            "modified": "2023-06-13T00:17:37.441Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"updateMensagem\",\r\n  \"param\": {\r\n    \"mensagem_id\": \"3\",\r\n    \"usuario\": \"2\",\r\n    \"rota\": \"2\",\r\n    \"mensagem_data\": \"\",\r\n    \"hora\": \"\",\r\n    \"descricao\": \"B\",\r\n    \"mensagem_status\": \"I\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "904f6ae6-70ac-483b-815d-2d66bd8eb305",
+            "colId": "1f430744-d6d8-4565-ab08-6eceb48f4fbc",
+            "containerId": "4c02d824-5ae5-4e4c-9f22-528c9d4c95fe",
+            "name": "DeleteMensagemPost",
+            "url": "http://127.0.0.1/eTransporte/app/back/",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2023-06-13T00:16:34.666Z",
+            "modified": "2023-06-13T00:17:20.029Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"deleteMensagem\",\r\n  \"param\": {\r\n    \"mensagem_id\": \"\"\r\n  }\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "headers": [],
+        "tests": []
+    }
+}
