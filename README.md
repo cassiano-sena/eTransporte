@@ -2,9 +2,7 @@
 
 ### CS - Web Programming Project by Cassiano de Sena and Eduardo Miguel.
 
->Use XAMPP and phpMyAdmin for better results.
-
-<br>
+>Use XAMPP and phpMyAdmin for better results.<br>
 
 - Upload the 'app/back/db/database-drop.sql' database to phpMyAdmin.
 
