@@ -119,6 +119,7 @@ div {
     margin-top: 5px;
     margin-bottom: 5px;
     right: 0;
+    cursor: pointer;
 }
 
 .etransporte-header-icon {
